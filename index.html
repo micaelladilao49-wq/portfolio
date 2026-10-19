@@ -1,0 +1,473 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mica Ella Dilao | My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="navbar">
+    <a href="#home" class="logo">DILAO</a>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#activities">Activities</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <button id="themeButton" class="theme-btn" aria-label="Change color theme">
+        ◐
+    </button>
+</header>
+
+<main>
+    <!-- HOME -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hello, I'm <span>Mica Ella Dilao</span></h1>
+
+            <h3>BSIT Student & Aspiring Web Developer</h3>
+
+            <p class="intro">
+                I am a student who is passionate about technology,
+                creativity, and learning new things. I may still be
+                developing my skills, but every activity helps me
+                become more confident and knowledgeable.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#activities" class="btn primary">Explore My Activities ↗</a>
+                <a href="#about" class="btn secondary">About Me</a>
+            </div>
+
+            <p class="mini-quote">
+                Learning at my own pace. Growing every day.
+            </p>
+
+            <p class="date-text" id="todayDate"></p>
+        </div>
+
+         
+
+      
+ 
+<div class="hero-visual">
+    <div class="photo-frame">
+        <img src="./profile.jpg" alt="Mica Ella Dilao"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="photo-placeholder">MD</div>
+    </div>
+    <p class="photo-caption">Learning · Creating · Growing</p>
+</div>
+
+
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about-section" id="about">
+        <div class="section-heading">
+            <p class="eyebrow">GET TO KNOW ME</p>
+            <h2>About <span>Me</span></h2>
+            <p>A little introduction about me and my journey.</p>
+        </div>
+
+        <div class="about-grid">
+            <article class="info-card">
+                <span class="card-icon">♡</span>
+                <h3>Personal Information</h3>
+                <p><strong>Full Name:</strong> Mica Ella Dilao</p>
+                <p><strong>Course:</strong> Bachelor of Science in Information Technology</p>
+                <p><strong>Role:</strong> College Student</p>
+            </article>
+
+            <article class="info-card">
+                <span class="card-icon">🙋🏻‍♀️</span>
+                <h3>Who Am I?</h3>
+                <p>
+                    Hello! I'm Mica Ella, a BSIT student at Bestlink
+                    College of the Philippines. I am learning how
+                    technology works and how to create websites
+                    and programs.
+                </p>
+            </article>
+
+            <article class="info-card">
+                <span class="card-icon">📚</span>
+                <h3>Education</h3>
+                <p>
+                    I am studying Information Technology and
+                    exploring programming, web development,
+                    computer applications, and other areas of IT.
+                </p>
+            </article>
+
+            <article class="info-card">
+                <span class="card-icon">☁</span>
+                <h3>My Interests</h3>
+                <p>
+                    I enjoy watching anime, exploring creative
+                    designs, learning new things, and creating
+                    websites for school activities.
+                </p>
+            </article>
+        </div>
+
+        <div class="personal-note">
+            <h3>My Learning Journey</h3>
+            <p>
+                I believe that learning takes time, patience, and
+                practice. I am not yet an expert in programming
+                or web development, but I am willing to learn,
+                accept mistakes, and improve step by step.
+                Every small achievement is part of my growth.
+            </p>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills-section" id="skills">
+        <div class="section-heading">
+            <p class="eyebrow">WHAT I AM LEARNING</p>
+            <h2>My <span>Skills</span></h2>
+            <p>Skills and strengths I continue to develop.</p>
+        </div>
+
+        <div class="skills-grid">
+            <article class="skill-card">
+                <span class="skill-number">01</span>
+                <h3>HTML</h3>
+                <p>Learning to structure webpages and organize content.</p>
+                <span class="level">Beginner · Learning</span>
+            </article>
+
+            <article class="skill-card">
+                <span class="skill-number">02</span>
+                <h3>CSS</h3>
+                <p>Exploring colors, layouts, typography, and responsive designs.</p>
+                <span class="level">Beginner · Learning</span>
+            </article>
+
+            <article class="skill-card">
+                <span class="skill-number">03</span>
+                <h3>JavaScript</h3>
+                <p>Discovering how to add interaction and simple functions to websites.</p>
+                <span class="level">Currently Learning</span>
+            </article>
+
+            <article class="skill-card">
+                <span class="skill-number">04</span>
+                <h3>C++ Programming</h3>
+                <p>Practicing basic syntax, input, output, and problem-solving.</p>
+                <span class="level">Practicing</span>
+            </article>
+
+            <article class="skill-card">
+                <span class="skill-number">05</span>
+                <h3>Creativity</h3>
+                <p>Exploring ideas and making school projects more presentable.</p>
+                <span class="level">Growing</span>
+            </article>
+
+            <article class="skill-card">
+                <span class="skill-number">06</span>
+                <h3>Problem-Solving</h3>
+                <p>Learning from errors and finding ways to improve my work.</p>
+                <span class="level">Improving</span>
+            </article>
+        </div>
+
+        <p class="skills-note">
+            I am still learning, and I see every challenge as
+            an opportunity to improve.
+        </p>
+    </section>
+
+
+<!-- ACTIVITIES SECTION -->
+<section id="activities" class="activities-section">
+    <div class="section-heading">
+        <p class="section-label">MY SCHOOL WORK</p>
+        <h2>My Activities</h2>
+        <p>Here are some of my activities and website projects.</p>
+    </div>
+
+    <div class="activities-grid">
+
+        <!-- Activity 1: Filipino Recipe -->
+        <article class="activity-card">
+            <img src="./recipe.jpg"
+                 alt="Filipino Recipe Activity"
+                 loading="lazy">
+            <div class="activity-info">
+                <h3>Filipino Recipe Activity</h3>
+                <p>A website showcasing my favorite Filipino dish.</p>
+                <a href="https://micaelladilao49-wq.github.io/recipe/"
+                   target="_blank" rel="noopener noreferrer">
+                    👁 <strong>View Activity</strong>
+                </a>
+            </div>
+        </article>
+
+        <!-- Activity 2: My Favorite Things -->
+        <article class="activity-card">
+            <img src="./favorites.jpg"
+                 alt="My Favorite Things Activity"
+                 loading="lazy">
+            <div class="activity-info">
+                <h3>My Favorite Things</h3>
+                <p>A website showcasing my favorite food, movie, and hobby.</p>
+                <a href="https://micaelladilao49-wq.github.io/favorites/"
+                   target="_blank" rel="noopener noreferrer">
+                    👁 <strong>View Activity</strong>
+                </a>
+            </div>
+        </article>
+
+        <!-- Activity 3: My Services -->
+        <article class="activity-card">
+            <img src="./mywebsite.jpg"
+                 alt="My Services Activity"
+                 loading="lazy">
+            <div class="activity-info">
+                <h3>My Services</h3>
+                <p>A website presenting different services.</p>
+                <a href="https://micaelladilao49-wq.github.io/services/"
+                   target="_blank" rel="noopener noreferrer">
+                    👁 <strong>View Activity</strong>
+                </a>
+            </div>
+        </article>
+
+        <!-- Activity 4: Favorite Music -->
+        <article class="activity-card">
+            <img src="./fallingforyou.jpg"
+                 alt="My Favorite Music Activity"
+                 loading="lazy">
+            <div class="activity-info">
+                <h3>My Favorite Music</h3>
+                <p>A creative website featuring a song.</p>
+                <a href="https://micaelladilao49-wq.github.io/fallingforyou/"
+                   target="_blank" rel="noopener noreferrer">
+                    👁 <strong>View Activity</strong>
+                </a>
+            </div>
+        </article>
+
+        <!-- Activity 5: Teacher's Day -->
+        <article class="activity-card">
+            <img src="./teachersday.jpg"
+                 alt="Happy Teacher's Day Activity"
+                 loading="lazy">
+            <div class="activity-info">
+                <h3>Happy Teacher's Day</h3>
+                <p>A special website made for Teacher's Day.</p>
+                <a href="https://micaelladilao49-wq.github.io/teachersday/"
+                   target="_blank" rel="noopener noreferrer">
+                    👁 <strong>View Activity</strong>
+                </a>
+            </div>
+        </article>
+
+    </div>
+
+        <p class="activity-note">
+            Every activity is a step forward. I am proud of
+            what I have learned and excited about what comes next.
+        </p>
+    </section>
+
+    <!-- GOALS -->
+    <section class="section goals-section" id="goals">
+        <div class="section-heading">
+            <p class="eyebrow">ONE STEP AT A TIME</p>
+            <h2>My Goals <span>&amp; Dreams</span></h2>
+            <p>What I hope to achieve as I continue learning.</p>
+        </div>
+
+        <div class="goals-grid">
+            <article class="goal-card">
+                <span>01</span>
+                <h3>Improve My Skills</h3>
+                <p>
+                    Practice coding regularly and understand
+                    the basics before moving on to more advanced topics.
+                </p>
+            </article>
+
+            <article class="goal-card">
+                <span>02</span>
+                <h3>Build Better Projects</h3>
+                <p>
+                    Create more websites and programs that
+                    reflect my creativity and growing knowledge.
+                </p>
+            </article>
+
+            <article class="goal-card">
+                <span>03</span>
+                <h3>Become More Confident</h3>
+                <p>
+                    Learn from mistakes, ask questions, and
+                    become more confident in solving problems.
+                </p>
+            </article>
+        </div>
+
+        <div class="quote-box">
+            <p>
+                "I may not know everything today, but I can
+                learn something new every day."
+            </p>
+            <span>— My journey as a student</span>
+        </div>
+    </section>
+
+ 
+<!-- CONTACT SECTION -->
+<section class="section contact-section" id="contact">
+
+    <div class="section-heading">
+        <p class="eyebrow">A LITTLE CONNECTION</p>
+        <h2>Let's <span>Talk</span></h2>
+        <p>Have a question, an idea, or a kind message? I'd love to hear from you.</p>
+    </div>
+
+    <div class="contact-layout">
+
+        <!-- LEFT SIDE -->
+        <div class="contact-intro">
+          
+
+            <h3>Let's create<br>something meaningful.</h3>
+
+            <p>
+                I'm always happy to connect, learn from others,
+                and exchange creative ideas. Feel free to reach out!
+            </p>
+
+            <div class="contact-link">
+                <span class="contact-icon">✉</span>
+                <div>
+                    <small>EMAIL ADDRESS</small>
+                    <a href="mailto:micaelladilao19@gmail.com">
+                        micaelladilao19@gmail.com
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-link">
+                <span class="contact-icon">☏</span>
+                <div>
+                    <small>PHONE NUMBER</small>
+                    <a href="tel:09646513421">
+                        09646513421
+                    </a>
+                </div>
+            </div>
+
+            <p class="contact-signature">
+                Thank you for being part of my journey ♡
+            </p>
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="message-panel">
+
+            <div class="message-heading">
+                <p class="eyebrow">YOUR WORDS MATTER</p>
+                <h3>Drop me a message</h3>
+                <p>Fill in the details below.</p>
+            </div>
+
+            <form id="contactForm">
+
+                <div class="form-row">
+                    <div class="form-field">
+                        <label for="name">Your Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="e.g. Juan Dela Cruz"
+                            required>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="email">Email Address</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="you@example.com"
+                            required>
+                    </div>
+                </div>
+
+                <div class="form-field">
+                    <label for="topic">What's this about?</label>
+                    <select id="topic" name="topic" required>
+                        <option value="" disabled selected>
+                            Choose a topic
+                        </option>
+                        <option value="School Project">School Project</option>
+                        <option value="Collaboration">Collaboration</option>
+                        <option value="Feedback">Website Feedback</option>
+                        <option value="General Message">Just Saying Hello</option>
+                    </select>
+                </div>
+
+                <div class="form-field">
+                    <label for="message">Your Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Write something here..."
+                        rows="5"
+                        required></textarea>
+                </div>
+
+                <button type="submit" class="send-btn">
+                    Send a Little Note <span>↗</span>
+                </button>
+
+                <p id="formNotice" class="form-notice">
+                    
+                </p>
+
+            </form>
+        </div>
+
+    </div>
+</section>
+
+</main>
+
+<footer>
+  
+    <p>© <span id="year"></span> Mica Ella Dilao · All Right Reserved.</p>
+</footer>
+
+<!-- ACTIVITY DETAILS POPUP -->
+<div class="modal" id="activityModal" aria-hidden="true">
+    <div class="modal-content">
+        <button class="modal-close" id="closeModal"
+                aria-label="Close details">×</button>
+        <p class="eyebrow">ACTIVITY DETAILS</p>
+        <h2 id="modalTitle">Activity</h2>
+        <p id="modalDescription"></p>
+    </div>
+</div>
+        <!-- Back to Top Button -->
+<button id="backToTop" title="Back to Top" aria-label="Back to Top">
+    ↑
+</button>
+</body>
+</html>
